@@ -1,0 +1,10 @@
+function mostrarAlerta() {
+    alert("Hola!");
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    const divContenedor = document.getElementById("contenedor");
+    divContenedor.addEventListener("click", function() {
+        alert("Hola! Soy el div");
+    });
+});
